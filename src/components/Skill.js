@@ -4,56 +4,56 @@ const Skill = () => {
   return (
     <>
       <section id="skill" className="w-full bg-backgroundColor">
-        <div className="bg-backgroundColor pt-[16px] pl-[91px] pr-[73px] w-[85%] mx-auto">
-          <div className="bg-card h-[302px] rounded-[16px] flex w-[1118px]">
-            <div className="ml-[23px] my-[39px] bg-card2 rounded-xl w-[200px] mr-[23px]">
+        <div className="mx-auto w-full bg-backgroundColor pt-[16px] pb-[16px] pl-4 pr-4 lg:w-[85%] lg:pr-[73px] lg:pl-[91px]">
+          <div className="scroll-custom flex h-[302px] w-full flex-col flex-wrap overflow-hidden overflow-x-scroll rounded-[16px] bg-card lg:w-[1118px]">
+            <div className="my-[39px] ml-[23px] mr-[23px] w-[200px] rounded-xl bg-card2">
               <div className="pl-[21px] pt-[25px]">
-                <img src="/images/card.svg" alt="logo" className="w-[45px] h-[45px]" />
+                <img src="/images/card.svg" alt="logo" className="h-[45px] w-[45px]" />
               </div>
-              <div className="pl-[21px] pb-[29px] mt-[46px]">
-                <h1 className="text-white font-semibold leading-6 text-[16px]">UI Designer</h1>
-                <p className="mt-[8px] font-medium lead-[18px] text-[12px] text-white">Tech Company</p>
-                <p className="mt-[8px] font-light text-[12px] leading-[18px] text-white">Sept 2019 - Present</p>
+              <div className="mt-[46px] pl-[21px] pb-[29px]">
+                <h1 className="text-[16px] font-semibold leading-6 text-white">UI Designer</h1>
+                <p className="lead-[18px] mt-[8px] text-[12px] font-medium text-white">Tech Company</p>
+                <p className="mt-[8px] text-[12px] font-light leading-[18px] text-white">Sept 2019 - Present</p>
               </div>
             </div>
-            <div className="my-[16px] bg-gradient-to-t from-gradient-500 to-gradient-600 rounded-xl w-[220px] mr-[33px]">
+            <div className="my-[16px] mr-[33px] w-[220px] rounded-xl bg-gradient-to-t from-gradient-500 to-gradient-600">
               <div className="pl-[37px] pt-[31px]">
-                <img src="/images/card.svg" alt="logo" className="w-[45px] h-[45px]" />
+                <img src="/images/card.svg" alt="logo" className="h-[45px] w-[45px]" />
               </div>
-              <div className="pl-[28px] pb-[29px] mt-[46px]">
-                <h1 className="text-white font-semibold leading-6 text-[16px]">Senior Front-End Developer</h1>
-                <p className="mt-[8px] font-medium leading-[18px] text-[12px] text-white">Tech Company</p>
-                <p className="mt-[8px] font-light text-[12px] leading-[18px] text-white">Jan - Aug 2021</p>
+              <div className="mt-[46px] pl-[28px] pb-[29px]">
+                <h1 className="text-[16px] font-semibold leading-6 text-white">Senior Front-End Developer</h1>
+                <p className="mt-[8px] text-[12px] font-medium leading-[18px] text-white">Tech Company</p>
+                <p className="mt-[8px] text-[12px] font-light leading-[18px] text-white">Jan - Aug 2021</p>
               </div>
             </div>
-            <div className="ml-[28px] my-[39px] bg-card2 rounded-xl w-[200px]">
+            <div className="my-[39px] ml-[28px] w-[200px] rounded-xl bg-card2">
               <div className="pl-[25px] pt-[39px]">
-                <img src="/images/card1.svg" alt="logo" className="w-[45px] h-[45px]" />
+                <img src="/images/card1.svg" alt="logo" className="h-[45px] w-[45px]" />
               </div>
-              <div className="pl-[21px] pb-[29px] mt-[46px] mr-[28px]">
-                <h1 className="text-white font-semibold leading-6 text-[16px]">Front-End Dev</h1>
-                <p className="mt-[8px] font-medium lead-[18px] text-[12px] text-white">Tech Company</p>
-                <p className="mt-[8px] font-light text-[12px] leading-[18px] text-white">Nov 2019 - Jan 2021</p>
+              <div className="mt-[46px] mr-[28px] pl-[21px] pb-[29px]">
+                <h1 className="text-[16px] font-semibold leading-6 text-white">Front-End Dev</h1>
+                <p className="lead-[18px] mt-[8px] text-[12px] font-medium text-white">Tech Company</p>
+                <p className="mt-[8px] text-[12px] font-light leading-[18px] text-white">Nov 2019 - Jan 2021</p>
               </div>
             </div>
-            <div className="ml-[28px] my-[39px] bg-card2 rounded-xl w-[200px]">
+            <div className="my-[39px] ml-[28px] w-[200px] rounded-xl bg-card2">
               <div className="pl-[25px] pt-[39px]">
-                <img src="/images/card1.svg" alt="logo" className="w-[45px] h-[45px]" />
+                <img src="/images/card1.svg" alt="logo" className="h-[45px] w-[45px]" />
               </div>
-              <div className="pl-[21px] pb-[29px] mt-[46px] mr-[28px]">
-                <h1 className="text-white font-semibold leading-6 text-[16px]">Front-End Dev</h1>
-                <p className="mt-[8px] font-medium lead-[18px] text-[12px] text-white">Tech Company</p>
-                <p className="mt-[8px] font-light text-[12px] leading-[18px] text-white">Nov 2019 - Jan 2021</p>
+              <div className="mt-[46px] mr-[28px] pl-[21px] pb-[29px]">
+                <h1 className="text-[16px] font-semibold leading-6 text-white">Front-End Dev</h1>
+                <p className="lead-[18px] mt-[8px] text-[12px] font-medium text-white">Tech Company</p>
+                <p className="mt-[8px] text-[12px] font-light leading-[18px] text-white">Nov 2019 - Jan 2021</p>
               </div>
             </div>
-            <div className="ml-[28px] my-[39px] bg-card2 rounded-xl w-[200px] overflow-hidden mr-[23px]">
+            <div className="my-[39px] ml-[28px] mr-[23px] w-[200px] rounded-xl bg-card2">
               <div className="pl-[21px] pt-[25px]">
-                <img src="/images/card.svg" alt="logo" className="w-[45px] h-[45px]" />
+                <img src="/images/card.svg" alt="logo" className="h-[45px] w-[45px]" />
               </div>
-              <div className="pl-[21px] pb-[29px] mt-[46px]">
-                <h1 className="text-white font-semibold leading-6 text-[16px]">UI Designer</h1>
-                <p className="mt-[8px] font-medium lead-[18px] text-[12px] text-white">Tech Company</p>
-                <p className="mt-[8px] font-light text-[12px] leading-[18px] text-white">Sept 2019 - Present</p>
+              <div className="mt-[46px] pl-[21px] pb-[29px]">
+                <h1 className="text-[16px] font-semibold leading-6 text-white">UI Designer</h1>
+                <p className="lead-[18px] mt-[8px] text-[12px] font-medium text-white">Tech Company</p>
+                <p className="mt-[8px] text-[12px] font-light leading-[18px] text-white">Sept 2019 - Present</p>
               </div>
             </div>
           </div>

@@ -3,6 +3,14 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {
+      animation: {
+        left: "left 1s ease-in-out 1",
+      },
+      keyframes: {
+        left: {
+          "0%": { transform: "translatex(50px)" },
+        },
+      },
       colors: {
         transparent: "transparent",
         backgroundColor: "#041E44",
@@ -21,5 +29,5 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  plugins: [require("prettier-plugin-tailwindcss")],
 };
