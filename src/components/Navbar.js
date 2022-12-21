@@ -21,15 +21,15 @@ const Navbar = () => {
             <img src="/images/logo.svg" alt="logo" />
           </a>
           <div onClick={() => setToggle(!toggle)} className="cursor-pointer">
-            <i class={`fa-solid fa-bars text-4xl text-white lg:hidden ${toggle ? "block" : "hidden"} `}></i>
-            <i class={`fa-solid fa-xmark text-4xl text-white lg:hidden ${!toggle ? "block" : "hidden"}`}></i>
+            <i class={`fa-solid fa-bars text-4xl text-white lg:hidden ${!toggle ? "block" : "hidden"} `}></i>
+            <i class={`fa-solid fa-xmark text-4xl text-white lg:hidden ${toggle ? "block" : "hidden"}`}></i>
           </div>
         </div>
 
         <nav>
           <ul
             className={`flex flex-col pt-8 leading-8 text-white lg:flex-row lg:space-x-[49px] lg:pt-0 ${
-              !toggle ? "block" : "hidden"
+              toggle ? "block" : "hidden"
             } mt-4 animate-left bg-card bg-opacity-80 pl-4 pb-4 backdrop-blur-sm lg:bg-transparent lg:bg-opacity-0 lg:backdrop-blur-none`}
           >
             <li>
