@@ -1,3 +1,4 @@
+import Connects from "./components/Connects";
 import Hero from "./components/Hero";
 import Language from "./components/Language";
 import Navbar from "./components/Navbar";
@@ -15,6 +16,7 @@ function App() {
         <Project1 />
         <Project2 />
         <Language/>
+        <Connects/>
       </div>
     </>
   );

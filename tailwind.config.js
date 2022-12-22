@@ -26,6 +26,7 @@ module.exports = {
         card2: "rgba(165, 202, 255, 0.2)",
         card3: "#1E4D85",
         background: "#072852",
+        background1: "#153B6A",
       },
     },
   },
