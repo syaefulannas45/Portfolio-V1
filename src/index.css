@@ -22,3 +22,6 @@ body {
 .scroll-custom::-webkit-scrollbar {
   width: 20px;
 }
+.slick-slide > div {
+  @apply my-[15px] mx-[23px]
+}
