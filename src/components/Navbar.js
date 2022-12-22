@@ -21,14 +21,14 @@ const Navbar = () => {
             <img src="/images/logo.svg" alt="logo" />
           </a>
           <div onClick={() => setToggle(!toggle)} className="cursor-pointer">
-            <i class={`fa-solid fa-bars text-4xl text-white lg:hidden ${!toggle ? "block" : "hidden"} `}></i>
-            <i class={`fa-solid fa-xmark text-4xl text-white lg:hidden ${toggle ? "block" : "hidden"}`}></i>
+            <i class={`fa-solid fa-bars text-4xl text-white lg:hidden ${!toggle ? "block" : "hidden"} animate-rotatetr`}></i>
+            <i class={`fa-solid fa-xmark text-4xl text-white lg:hidden ${toggle ? "block" : "hidden"} animate-rotatetl`}></i>
           </div>
         </div>
 
         <nav>
           <ul
-            className={`lg:flex flex-col pt-8 leading-8 text-white lg:flex-row lg:space-x-[49px] lg:pt-0 ${
+            className={`flex-col pt-8 leading-8 text-white lg:flex lg:flex-row lg:space-x-[49px] lg:pt-0 ${
               toggle ? "block" : "hidden"
             } mt-4 animate-[left_1s_1] bg-card bg-opacity-80 pl-4 pb-4 backdrop-blur-sm lg:bg-transparent lg:bg-opacity-0 lg:backdrop-blur-none`}
           >

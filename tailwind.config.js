@@ -5,10 +5,18 @@ module.exports = {
     extend: {
       animation: {
         left: "left 1s ease-in-out 1",
+        rotatetr: "rotatetr 1s ease-in-out 1",
+        rotatetl: "rotatetl 1s ease-in-out 1",
       },
       keyframes: {
         left: {
           "0%": { transform: "translatex(50px)" },
+        },
+        rotatetr: {
+          "0%": { transform: "rotate(90deg)" },
+        },
+        rotatetl: {
+          "0%": { transform: "rotate(-90deg)" },
         },
       },
       colors: {
